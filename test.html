@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tes HTML</title>
+</head>
+
+<body>
+    <h1>Formulir Pendaftaran Siswa</h1>
+    <form>
+        <fieldset>
+            <table>
+                <tr>
+                    <td>Nama Calon Siswa</td>
+                    <td>:</td>
+                    <td><input type="text" placeholder="Isikan Nama Disini ..."></td>
+                </tr>
+                <tr>
+                    <td>Tempat/Tanggal Lahir </td>
+                    <td>:</td>
+                    <td> <input type="text" name="tempat"></td>
+                    <td>
+                        <input type="date" name="tanggal" id="tanggal">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Agama</td>
+                    <td>:</td>
+                    <td>
+                        <select name="agama" id="agama">
+                            <option value="">Islam</option>
+                            <option value="">Kristen</option>
+                            <option value="">Budha</option>
+                            <option value="">Hindu</option>
+                            <option value="">Konghucu</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td>
+                        <textarea name="alamat" id="" cols="50" rows="5"
+                            placeholder="Isikan Alamat Disini..."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>No Telp/Hp </td>
+                    <td>:</td>
+                    <td>
+                        <input type="number" name="phone" id="phone" placeholder="Isi Nomor Telepon Disini...">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Jenis Kelamin 
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" name="pria">Pria
+                        <input type="radio" name="wanita">Wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox">
+                        <label for="">Membaca</label>
+                        <input type="checkbox">
+                        <label for="">Menulis</label>
+                        <input type="checkbox">
+                        <label for="">Olahraga</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pas Photo</td>
+                    <td>:</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                        <input type="submit" value="SUBMIT">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>
